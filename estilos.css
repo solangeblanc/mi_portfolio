@@ -37,15 +37,16 @@ a {
     text-decoration: underline;
 }
 
+
 .perfil-img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #bfa76f;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    animation: fadeIn 0.8s ease-in-out forwards;
-    opacity: 0;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #bfa76f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.8s ease-in-out forwards;
+  opacity: 0;
 }
 
 @keyframes fadeIn {
