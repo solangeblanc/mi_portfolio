@@ -1,0 +1,45 @@
+
+<section class="contacto py-5" id="contacto">
+    <div class="container text-center">
+        <h2 class="section-title main-color mb-4">Contacto</h2>
+        <p class="text-light lead mb-5">
+            ¿Querés contarme tu idea, hacer una consulta o proponer una colaboración? Escribime:
+        </p>
+
+        <form action="https://formsubmit.co/solblanc47@gmail.com" method="POST" class="contact-form mx-auto"
+            style="max-width: 600px;">
+            <!-- Campos ocultos para configuración -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://TU_DOMINIO.com/gracias.html">
+
+            <!-- Campo Nombre -->
+            <div class="mb-3 text-start">
+                <label for="nombre" class="form-label text-light">Nombre</label>
+                <input type="text" class="form-control campo-input" id="nombre" name="nombre" placeholder="Tu nombre"
+                    required />
+            </div>
+
+            <!-- Campo Email -->
+            <div class="mb-3 text-start">
+                <label for="email" class="form-label text-light">Correo electrónico</label>
+                <input type="email" class="form-control campo-input" id="email" name="email"
+                    placeholder="email@ejemplo.com" required />
+            </div>
+
+            <!-- Campo Mensaje -->
+            <div class="mb-3 text-start">
+                <label for="mensaje" class="form-label text-light">Mensaje</label>
+                <textarea class="form-control campo-input" id="mensaje" name="mensaje" rows="5"
+                    placeholder="Contame tu idea..." required></textarea>
+            </div>
+
+            <!-- Botón Enviar -->
+            
+            <button type="submit" name="submit" class="btn btn-dorado mt-3">Enviar</button>
+
+        </form>
+    </div>
+</section>
+
+  
+  
